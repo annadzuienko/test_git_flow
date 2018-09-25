@@ -1,0 +1,19 @@
+{
+  "name": "test_git_flow",
+  "version": "1.0.0",
+  "description": "team project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annadzuienko/test_git_flow.git"
+  },
+  "author": "annadzuienko <anna.dzuienko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annadzuienko/test_git_flow/issues"
+  },
+  "homepage": "https://github.com/annadzuienko/test_git_flow#readme"
+}
