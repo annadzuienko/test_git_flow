@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/annadzuienko/test_git_flow/issues"
   },
-  "homepage": "https://github.com/annadzuienko/test_git_flow#readme"
+  "homepage": "https://github.com/annadzuienko/test_git_flow#readme",
+  "devDependencies": {
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }

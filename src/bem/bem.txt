@@ -1,0 +1,31 @@
+
+	header__nav
+		header__nav_logo
+		headerr__nav_menu
+			header__nav_menu-item
+	header__heading
+		header__heading_text
+		header__heading_info
+		header__heading_button
+			header__heading_button-title
+			header__heading_button-icon
+about
+	about__heading
+	about__line
+	about__description
+	about__info
+		about__info_title
+		about__info_text
+		about__info_button
+			about__info_button-title
+			about__info_button-arrow
+	about__image
+	about__services
+		about__services_title
+		about__services_text
+		about__services_item
+			about__services_item-icon
+			about__services_item-title
+			about__services_item-description
+	about__spinner
+		about__spinner_score
