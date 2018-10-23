@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans|Raleway");
+@import url("OratorStd.otf");
 a {
   text-decoration: none; }
 
@@ -11,16 +13,6 @@ a {
 .fa-download {
   font-size: 14px;
   color: #fff; }
-
-.fa-arrow-right {
-  font-size: 14px;
-  color: #4d4d4d; }
-
-.fa-users,
-.fa-bullhorn,
-.fa-flask {
-  font-size: 14px;
-  color: #7b6c63; }
 
 .header__nav {
   background: #303030;
@@ -73,6 +65,20 @@ a {
       text-transform: uppercase;
       margin: 10px; }
 
+.container {
+  width: 1170px;
+  margin: 0 auto; }
+
+.fa-arrow-right {
+  font-size: 14px;
+  color: #212121; }
+
+.fa-users,
+.fa-bullhorn,
+.fa-flask {
+  font-size: 14px;
+  color: #7b6c63; }
+
 .about__heading {
   font-size: 30px;
   color: #7b6c63;
@@ -112,16 +118,16 @@ a {
       margin-bottom: 50px; }
     .about__info_block_text {
       font-size: 12px;
-      color: #4d4d4d;
+      color: #212121;
       line-height: 24px;
       margin: 40px 0; }
     .about__info_block_button {
       width: 155px;
       height: 45px;
-      border: 2px solid #0d0d0d;
+      border: 2px solid #212121;
       border-radius: 3px; }
       .about__info_block_button-title {
-        color: #4d4d4d;
+        color: #212121;
         text-transform: uppercase;
         margin: 10px;
         font-weight: bold; }
@@ -143,7 +149,7 @@ a {
 
 .about__services_text {
   font-size: 12px;
-  color: #4d4d4d;
+  color: #212121;
   line-height: 24px;
   margin: 40px 0;
   text-align: center;
@@ -163,11 +169,11 @@ a {
   margin-right: 65px; }
   .about__services_item-title {
     font-size: 14px;
-    color: #686868;
+    color: #212121;
     text-transform: uppercase; }
   .about__services_item-description {
     font-size: 12px;
-    color: #9b9b9b;
+    color: #c2c2c2;
     line-height: 24px; }
 
 .about__spinner {
@@ -186,7 +192,7 @@ a {
     display: inline-block;
     width: 15%;
     margin: 0 23px;
-    color: #726f6d;
+    color: #747474;
     font-size: 14px;
     text-transform: uppercase;
     text-align: center; }
