@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans|Raleway');
+@import url('OratorStd.otf');
+
+// искать свой шрифт можно логикой: $name1name2,
+// где в переменной $name1name2: name1 - елемент макета(logo/menu/button/txt/title/etc.),
+// а name2 - название елемента(logo/menu/button/txt/title/etc.)
+$logoFont-Family: 'Oleo Script', Regular;
+$menuFont-Family: 'Raleway', sans-serif;
+$txtGrabFont-Family: 'Raleway', Medium;
+$titleThePremiumFont-Family: 'Raleway', Semi-Bold;
+$buttonDownloadFont-Family: 'Raleway', sans-serif;
+$titleKnowFont-Family: 'Raleway', Semi-Bold;
+$txtNamFont-Family: 'Raleway', sans-serif; //общий
+$titleWeFont-Family: 'Raleway', Medium;
+$txtConsectetuerFont-Family: 'Raleway', sans-serif;
+$buttonReadFont-Family: 'Raleway', sans-serif;
+$titleServicesFont-Family: 'Raleway', Semi-Bold;
+$txtVolutpatFont-Family: 'Raleway', sans-serif;
+$titleConsultancyMaketingReaserchFont-Family: 'Raleway', sans-serif;
+$txtUnderConsultancyMaketingReaserchFont-Family: 'Raleway', sans-serif;
+$titleOurFont-Family: 'Raleway', Semi-Bold; //общий
+$numberInAnimationFont-Family: 'Open Sans', sans-serif;
+$txtUnderAnimationFont-Family: 'Raleway', sans-serif;
+$titleSomeFont-Family: 'Raleway', Semi-Bold;
+$titlePaperclipsInImageFont-Family: 'Raleway', Medium;
+$txtBrandingImImageFont-Family: 'Raleway', Light;
+$titleLatestFont-Family: 'Raleway', Semi-Bold;
+$txtTryingFont-Family: 'Raleway', sans-serif;
+$buttonSeeFont-Family: 'Raleway', sans-serif;
+$nameMichellFont-Family: 'Raleway', sans-serif;
+$underNameTxtFont-Family: 'Orator Stf', sans-serif;
+$titleWhatFont-Family: 'Raleway', Semi-Bold;
+$txtInBlockWithTitleWhatFont-Family: 'Raleway', Light;
+$txtInBlockWithTitleOurFont-Family: 'Raleway', sans-serif;
+$squareBracketsInBlockWithTitleOurFont-Family: 'Raleway', bold; // квадратные скобки вида [...]
+$buttonAllFont-Family: 'Raleway', Medium;
+$titleContactFont-Family: 'Raleway', Semi-Bold;
+$txtUndeLineInBlockContactFont-Family: 'Open Sans', sans-serif;
+$buttonSubmitFont-Family: 'Raleway', Medium;
+$footerLogoFont-Family: 'Oleo Script', Regular;
+$footerTxtFont-Family: 'Raleway', sans-serif;
+$footerTxt2014Font-Family: 'Raleway', Light;
