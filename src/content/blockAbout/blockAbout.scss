@@ -1,6 +1,5 @@
 .container {
-  width: 1170px;
-  margin: 0 auto;
+  @include container;
 }
 .fa-arrow-right {
   font-size: 14px;
