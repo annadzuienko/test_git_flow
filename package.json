@@ -1,6 +1,12 @@
 {
   "name": "test_git_flow",
   "version": "1.0.0",
+<<<<<<< HEAD
+  "description": "team project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+=======
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -123,6 +129,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "team project"
+>>>>>>> be4442b2a479782a89f75d54de3b0b7d1319167b
   },
   "repository": {
     "type": "git",
@@ -133,5 +140,17 @@
   "bugs": {
     "url": "https://github.com/annadzuienko/test_git_flow/issues"
   },
+<<<<<<< HEAD
+  "homepage": "https://github.com/annadzuienko/test_git_flow#readme",
+  "devDependencies": {
+    "gulp-nunjucks-render": "^2.2.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.9.4"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+=======
   "homepage": "https://github.com/annadzuienko/test_git_flow#readme"
+>>>>>>> be4442b2a479782a89f75d54de3b0b7d1319167b
 }
