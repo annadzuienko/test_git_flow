@@ -1,0 +1,45 @@
+@mixin container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+@mixin title {
+    font-size: 30px;
+    color: $mainFeature;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 90px 0 0 0;
+    margin: 0;
+}
+
+@mixin line {
+    width: 76px;
+    height: 6px;
+    background: $mainFeature;
+    margin: 50px auto 45px auto;
+}
+
+@mixin info {
+	font-size: 14px;
+	color: $darkText;
+	line-height: 20px;
+	padding-bottom: 90px;
+	text-align: center;
+	width: 460px;
+	margin: 0 auto;
+}
+
+@mixin heading {
+	font-size: 19px;
+    color: $mainFeature;
+    text-transform: uppercase;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+@mixin text {
+	font-size: 12px;
+    color: $darkText;
+    line-height: 24px;
+    margin: 40px 0;
+}
