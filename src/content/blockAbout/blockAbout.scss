@@ -26,12 +26,22 @@
   }
   &__info {
     background: $lightBG;
-    width: 50%;
+    width: 40%;
     display: inline-block;
     min-height: 577px;
     vertical-align: top;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-right: 220px solid transparent;
+      border-bottom: 578px solid $lightBG;
+      margin-left: 506px;
+      margin-top: -432px;
+    }
     &_block {
-      margin: 0 0 0 30%;
+      margin-left: 10%;
       &_title {
         @include heading;
       }
@@ -52,12 +62,13 @@
       }
     }
   }
+  
   &__image {
     background: url(../src/images/about__meeting.jpg) no-repeat center / cover;
-    margin: 0;
+    margin-left: -4px;
     min-height: 577px;
     display: inline-block;
-    width: 49%;
+    width: 60%;
   }
   &__services {
     &_title {

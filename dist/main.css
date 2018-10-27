@@ -36,6 +36,9 @@ a {
     font-weight: bold;
     text-transform: uppercase;
     color: #cccccc; }
+  .header__nav_menu-link:hover {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #7b6c63; }
 
 .header__heading {
   background: url(../src/images/header__bg.jpg) no-repeat center/cover;
@@ -104,12 +107,21 @@ a {
 
 .about__info {
   background: #f5f5f5;
-  width: 50%;
+  width: 40%;
   display: inline-block;
   min-height: 577px;
   vertical-align: top; }
+  .about__info:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-right: 220px solid transparent;
+    border-bottom: 578px solid #f5f5f5;
+    margin-left: 506px;
+    margin-top: -432px; }
   .about__info_block {
-    margin: 0 0 0 30%; }
+    margin-left: 10%; }
     .about__info_block_title {
       font-size: 19px;
       color: #7b6c63;
@@ -134,10 +146,10 @@ a {
 
 .about__image {
   background: url(../src/images/about__meeting.jpg) no-repeat center/cover;
-  margin: 0;
+  margin-left: -4px;
   min-height: 577px;
   display: inline-block;
-  width: 49%; }
+  width: 60%; }
 
 .about__services_title {
   font-size: 19px;

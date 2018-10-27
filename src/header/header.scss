@@ -38,6 +38,10 @@ a {
       text-transform: uppercase;
       color: #cccccc;
     }
+    &_menu-link:hover {
+      padding-bottom: 10px;
+      border-bottom: 5px solid $mainFeature;
+    }
   }
 }
 
