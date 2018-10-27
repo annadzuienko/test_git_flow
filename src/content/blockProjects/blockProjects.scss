@@ -1,22 +1,58 @@
-
 .blockProjects {
-  @include container;//pull branch anna!
-    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
     &__header{
-        
+        & h4{
+            font-size: 30px;
+            font-family: $titleSomeFont-Family;
+            color: $mainFeature;
+        }
+        & h4:after{
+            content: '';
+            height: 2px;
+            width: 100px;
+            background: $mainFeature;
+            box-sizing: border-box; 
+            margin: 0 auto;
+        }
     }
     &__description{
-        
+        font-size: 18px;
+        font-family: $titleSomeFont-Family;
     }
     &__content{
         
-        &_images{
-            
+        &_images img{
+            width: 25%;
+            padding: 0;
+            margin: 0;
         }
         &_info{
-            
+            background: $darkBG; 
+        }
+        &_info h4{
+            color: #ffffff;
+            font-size: 24px;
+        }
+        &_info p{
+            color: #ffffff;
+            font-size: 18px;
+        }
+        &_info a{
+            color:$accentColor;
+            text-decoration: none;
+            font-size: 18px;
         }
         &_button{
+            width: 170px;
+            height: 50px;
+            color: #000000;
+            font-size: 16px;
+            text-decoration: none;
+            border: 2px solid #000000;
+            border-radius: 2px;
             
         }
     }

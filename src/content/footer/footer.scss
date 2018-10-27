@@ -1,9 +1,51 @@
 .footer{
+    background: $footerBG;
+    width: 100%;
+    padding: 0;
+    margin: 0;
     
     &__col{
-        
+        width: 25%;
+    }
+}
+    .col-1{
         &_logo{
+            color: $mainFeature;
+            font-size: 48px;
+        }
+        &_first-p{
+            
+        }
+        &_second-p{
             
         }
     }
-}
+    .col-2{
+        & h4{}
+        &_post-1{}
+        &_post-2{}
+        &_post-3{}
+    }
+    .col-3{
+        & h4{}
+        &_twit-1{}
+        &_twit-2{}
+        &_twit-3{}
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
